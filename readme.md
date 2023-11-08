@@ -1,0 +1,10 @@
+每周的作业都存放在对应序号的week文件夹中，其中classtask存放课堂作业的代码，homework存放课后作业的代码
+
+最终项目考核代码存放在ClassExamProject文件夹中
+
+提交作业时只需要提交项目的代码文件，.sln文件和.vcxproj文件即可，无需提交编译产生的中间产物（最小编译单元）
+
+homework和ClassExamProject文件夹中的文件需要验证其可以编译通过，classtask则更多的展现自己的思路想法即可，不要求能编译
+
+更多详细情况见：【金山文档】 高校训练营git仓库须知
+https://kdocs.cn/l/cdZi2WxolyLn
