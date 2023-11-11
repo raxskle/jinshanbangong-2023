@@ -1,0 +1,37 @@
+th,
+td {
+  height: 30px;
+  min-width: 100px;
+  border: 1px solid rgb(160, 232, 160);
+  margin: 0px;
+  padding: 4px;
+}
+
+th:hover,
+td:hover {
+  border: 1px solid rgb(89, 186, 89);
+}
+
+tr {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* 奇数行和偶数行背景颜色交替 */
+tr:nth-of-type(odd) {
+  background-color: rgb(226, 253, 226);
+}
+tr:nth-of-type(even) {
+  background-color: rgb(170, 245, 170);
+}
+
+/* 简单修改一下默认样式 */
+input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 8px;
+  appearance: none;
+  outline: none;
+  border: 2px solid rgb(205, 205, 205);
+  border-radius: 6px;
+}
