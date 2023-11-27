@@ -1,0 +1,59 @@
+.标题栏 {
+  background-color: grey;
+  height: 50px;
+  width: 100%;
+}
+/* flex布局横向 */
+.容器 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 600px) {
+  .容器 {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .左侧列 {
+    width: 30%;
+  }
+  .中间列 {
+    width: 0;
+  }
+  .右侧列 {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .左侧列 {
+    width: 20%;
+  }
+  .中间列 {
+    width: 60%;
+  }
+  .右侧列 {
+    width: 20%;
+  }
+}
+
+.左侧列 {
+  background-color: red;
+}
+.中间列 {
+  background-color: yellow;
+}
+.右侧列 {
+  background-color: blue;
+}
+
+.内容块 {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+}

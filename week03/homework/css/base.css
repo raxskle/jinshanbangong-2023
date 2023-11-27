@@ -1,0 +1,51 @@
+/* 清除标签默认样式 */
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+@media screen and (max-width: 1250px) {
+  html,
+  body {
+    overflow-x: auto;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(181, 181, 181);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(101, 101, 101);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+input {
+  appearance: none;
+  outline: none;
+  border: 1px solid black;
+}
+
+/* 全局CSS变量 */
+:root {
+  --font-green: #31c27c;
+}

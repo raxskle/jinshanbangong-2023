@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week03 Homework</title>
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/top-nav.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="top-nav">
+        <div class="left-bar">
+          <img
+            src="https://y.qq.com/mediastyle/yqq/img/logo.png?max_age=2592000"
+            class="icon"
+          />
+          <a href="#" class="item active" title="音乐馆">音乐馆</a>
+          <a href="#" class="item" title="我的音乐">我的音乐</a>
+          <a href="#" class="item" title="客户端">
+            客户端
+            <img
+              class="item-icon"
+              src="https://y.qq.com/mediastyle/yqq/extra/mark_1.png?max_age=2592000"
+            />
+            <div class="popup">
+              <p>HQ高品质 全员开启</p>
+              <p>独家音效 全面升级</p>
+              <p>这里图标就不抓了</p>
+              <div class="popup-btn">下载体验</div>
+            </div>
+          </a>
+          <a href="#" class="item" title="开放平台">开放平台</a>
+          <a href="#" class="item" title="VIP">VIP</a>
+        </div>
+        <div class="right-bar">
+          <div class="search-bar">
+            <input
+              type="text"
+              class="search-input"
+              placeholder="搜索音乐、MV、歌单、用户"
+            />
+            <div class="search-icon"></div>
+          </div>
+
+          <div class="login-link">登录</div>
+          <div class="button-green" title="开通VIP">
+            开通VIP
+            <div class="popup">
+              <div>开通超级会员</div>
+              <div>开通绿钻豪华版</div>
+            </div>
+          </div>
+          <div class="button-white" title="开通VIP">
+            充值
+            <div class="popup">
+              <div>购买乐币</div>
+              <div>充值饭票</div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="subnav">
+        <a href="#" title="首页">首页</a>
+        <a href="#" title="歌手">歌手</a>
+        <a href="#" title="新碟">新碟</a>
+        <a href="#" title="排行榜">排行榜</a>
+        <a href="#" title="分类歌单">分类歌单</a>
+        <a href="#" title="电台">电台</a>
+        <a href="#" title="MV">MV</a>
+        <a href="#" title="数字专辑">数字专辑</a>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-content">
+        <div class="tag-bar" tag="area">
+          <div class="tag-title">区域</div>
+          <div class="tag-content active">全部</div>
+          <!-- tags由js生成 -->
+        </div>
+        <div class="tag-bar" tag="version">
+          <div class="tag-title">版本</div>
+          <div class="tag-content active">全部</div>
+          <!-- tags由js生成 -->
+        </div>
+
+        <div class="content-header">
+          <div class="title-bar">全部MV</div>
+          <div class="selector">
+            <div class="selection active" id="new">最新</div>
+            <div class="selection" id="hot">最热</div>
+          </div>
+        </div>
+
+        <div class="content-list">
+          <!-- js生成 -->
+          <div class="content-item">
+            <a class="content-cover">
+              <img
+                class="cover-img"
+                src="https://y.qq.com/music/photo_new/T015R640x360M000001HHL1x1Dwrls.jpg?max_age=2592000"
+              />
+              <img
+                class="mask"
+                src="https://y.qq.com/ryqq/static/media/cover_play@2x.53a26efb.png?max_age=2592000"
+              />
+            </a>
+            <div class="content-title">SERIBU Pelukan</div>
+            <div class="content-singer">Raissa Ramadhni</div>
+            <div class="content-info">
+              <img class="content-info-icon" src="./assets/icon.png" />
+              <span class="content-view">222</span>
+              <span class="content-date">2023-11-27</span>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+    </main>
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>
