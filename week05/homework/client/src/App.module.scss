@@ -1,0 +1,83 @@
+.top {
+  width: 100vw;
+  height: 60px;
+  background-color: $theme-color;
+  color: white;
+
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .title {
+    font-size: 24px;
+  }
+
+  .setting {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .setting-icon {
+    width: 18px;
+    margin-top: 4px;
+    margin-right: 4px;
+  }
+}
+.setting-board {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.main {
+  width: 100vw;
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  .side-nav {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 200px;
+    background-color: $theme-color;
+    flex-shrink: 0;
+
+    a {
+      text-decoration: none;
+      color: white;
+      width: 90%;
+      height: 40px;
+      border-radius: 8px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    .nav-icon {
+      width: 20px;
+      margin-left: 20px;
+      margin-right: 8px;
+    }
+    .nav {
+      background-color: transparent;
+    }
+
+    .nav-active {
+      background-color: rgb(32, 132, 255);
+    }
+  }
+}
